@@ -1,0 +1,60 @@
+[RoutingRule]
+IP-CIDR,192.168.0.66,PROXY
+DOMAIN,dl.listdl.com,PROXY
+DOMAIN-KEYWORD,67,REJECT
+DOMAIN,down.anticheatexpert.com,REJECT
+DOMAIN-KEYWORD,nj,REJECT
+DOMAIN,common-web.intlgame.com,REJECT
+DOMAIN-KEYWORD,facebook,DIRECT
+DOMAIN-KEYWORD,k.gjacky.com,DIRECT
+DOMAIN-KEYWORD,f.totope.com,DIRECT
+DOMAIN-KEYWORD,www.pubgmobile.com,DIRECT
+DOMAIN-KEYWORD,lh3.googleusercontent.com,DIRECT
+DOMAIN-KEYWORD,sec.listdl.com,DIRECT
+DOMAIN-KEYWORD,cdn2.pubgameshowtime.com,DIRECT
+DOMAIN-KEYWORD,fs-im-kefu.7moor-fs1.com,DIRECT
+DOMAIN-KEYWORD,hkspeed.igamecj.com,REJECT
+DOMAIN-KEYWORD,uaespeed.igamecj.com,REJECT
+PORT,10012,PROXY
+PORT,20731,REJECT
+PORT,17500,PROXY
+PORT,15692,REJECT
+PORT,8013,REJECT
+PORT,8011,REJECT
+PORT,8080,REJECT
+PORT,8089,REJECT
+PORT,9081,REJECT
+PORT,18081,REJECT
+FINAL,DIRECT
+
+[RoutingDomainStrategy]
+AsIs
+
+[FreedomDomainStrategy]
+AsIs
+
+[LocalPolicy]
+bufferSize = 4096
+connIdle = 300
+downlinkOnly = 0
+handshake = 4
+uplinkOnly = 0
+
+[DnsServer]
+
+[DnsRule]
+
+[DnsHost]
+
+[DnsClientIp]
+
+[Log]
+loglevel = none
+
+[PerAppVpn]
+
+[PerAppMode]
+
+[PerAppAllow]
+
+[PerAppDisallow]
