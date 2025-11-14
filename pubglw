@@ -1,4 +1,7 @@
 [RoutingRule]
+#频道@SuperPortnb
+#作者:余梦
+#解释权归作者所有
 IP-CIDR,192.168.0.66,PROXY
 DOMAIN,dl.listdl.com,PROXY
 DOMAIN-KEYWORD,67,REJECT
